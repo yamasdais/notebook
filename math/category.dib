@@ -1,0 +1,82 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":["c#","cs"],"languageName":"C#","name":"csharp"},{"aliases":["f#","fs"],"languageName":"F#","name":"fsharp"},{"aliases":[],"languageName":"HTML","name":"html"},{"aliases":[],"languageName":"http","name":"httpRequest"},{"aliases":["js"],"languageName":"JavaScript","name":"javascript"},{"aliases":[],"languageName":"KQL","name":"kql"},{"aliases":[],"languageName":"Mermaid","name":"mermaid"},{"aliases":["powershell"],"languageName":"PowerShell","name":"pwsh"},{"aliases":[],"languageName":"SQL","name":"sql"},{"aliases":[],"name":"value"}]}}
+
+#!markdown
+
+# 圏論
+
+## 何なのか？
+
+ある種の共通的な特徴を持った要素の集合を圏という。
+この様な圏と圏の関係について分析するのが圏論。
+
+ある問題領域(domain)を圏として扱う事ができれば、圏論という理論の枠内で「演算」する事ができる。というのが圏論。
+問題のモデル化の手法として捉えることも出来る。
+圏の特徴、圏と圏の関係がある条件を満たしていれば、ある種の「普遍的な特徴」が見いだせる。という事から圏と圏との関係について予想を立てる事ができたりする。
+
+#!markdown
+
+## 圏の特徴
+
+集合にとてもよく似ているが、集合だけを扱う訳では無い。
+
+#!markdown
+
+### 対象
+圏は「対象(object)」の集まり($ob(A)$)。
+$X \in ob(A)$ は、単に $X \in A$ と書かれることも多い
+
+$X\in A$ というのは、圏 $A$ の対象 $X$ を表すが、圏 $A$ に $X$ しかないという意味ではなく、$X, Y... \in A$ など他の対象を含んでいる場合もあるけど、今話しているのは、$A$ が対象ですよ、という意味。
+
+どういうものを対象とするのか？というと、わりと何でもいい。数字、関数、集合、論理など何でも良い。圏を対象としても良い。
+いろんなものに対して構造を共通化するのが圏論の目標だから。
+
+#!markdown
+
+### 射
+$X,Y \in ob(A)$ について、$X$ から $Y$ への「射(morphism, map, arrow)」$Y = f(X)$ の集まりが $A(X, Y)$。
+
+「対象(object)」について、操作や比較などの操作を行う事を「射(morphism)」という。
+圏は「射」も含んでいる。「射」も集まり。
+ある対象($X$)に射($f$)を適用すると、結果として対象($Y$)がただ一つ存在する。
+
+$X$ の事を「域(__domain__)」、$Y$ の事を「余域(__codomain__)」という。射 $f$ の域の事を $dom(f)$、余域の事を $cod(f)$ と表記する。
+域の事は「始域」、余域の事は「終域」と読んだりもする。
+
+$$
+\begin{align*}
+  X&=dom(f) \\
+  Y&=cod(f)
+\end{align*}
+$$
+
+写像や関数、矢印に置き換えるとイメージしやすい。
+
+$$
+\begin{CD}
+X @>f>> Y
+\end{CD}
+$$
+
+$f(X)$ なのか $x\in{X}, f(x)$ なのか、よくわからないが多分どっちでも良い。
+
+射は合成可能、かつ恒等射を持っている。
+
+射は単位元を持つ。
+
+### 射の合成
+
+射は合成できる。
+
+## 射(Morphism)
+
+ある圏の要素を、同じ圏の要素に変換する操作を「射」という。写像。
+
+$$
+\begin{CD}
+   A @>a>> B \\
+@VbVV @AAcA \\
+   C @= D
+\end{CD}
+$$
