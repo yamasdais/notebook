@@ -141,14 +141,17 @@ N → 6 → N → 6
 各自やりやすいと思う方法を見つけてください。<br>
 ボタンの物理的な状態（大きさ、ストローク長、アクチュエーションポイントなど）次第でやりやすさは変わりますが、それほどシビアに条件を詰める程ではないのかなと思います。
 
-### 逆方向ステップ
+### 逆方向入力ステップ
 
-<img src="images/m____.svg" width=10% style="background-color: #c0c0c0; padding: 3px"><br>
+逆方向への入力でニュートラル状態を作る方法。
+
+<img src="images/m____.svg" width=10% style="background-color: #c0c0c0; padding: 3px">ニュートラルから<br>
 <img src="images/m__6_.svg" width=10% style="background-color: #c0c0c0; padding: 3px"><br>
 <img src="images/m_46_.svg" width=10% style="background-color: #c0c0c0; padding: 3px"><br>
 <img src="images/m_r6_.svg" width=10% style="background-color: #c0c0c0; padding: 3px"><br>
 
 前後にフラフラ歩きながらでも出しやすい。
+しゃがみからだと、ピアノ撃ちで根性入力した方が速いかなぁと言う感じ。
 
 ### 歩きながらステップ
 
@@ -374,7 +377,7 @@ SF4 の頃は超低空で出せたり、垂直やバックジャンプからも�
 6 開始だと四通りの入力方法が考えられる。<br>
 6 - 3 - 2 - 4, 6 - 3 - 1 - 4, 6 - 2 - 1 - 4, 6 - 3 - 2 - 1 - 4
 
-::: mermaid
+```mermaid
 graph TD;
   6-->3;
   6-->2.a;
@@ -384,7 +387,7 @@ graph TD;
   2.b-->4;
   2.b-->1
   1-->4;
-:::
+```
 
 上のルートを、下の運指を参考にやりやすい押し方を探しながら辿ってみてください。<br>
 「根性入力でええわ・・」という気もしますが、一覧の後でやりやすいと思った運指を一つだけ紹介してます。
