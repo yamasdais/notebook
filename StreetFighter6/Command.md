@@ -1,17 +1,3 @@
-<!--
-Punch:
-<img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="10%" alt="P">
-<img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch_l.png" width="10%" alt="弱P">
-
-
-Kick:
-<img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick.png" width="10%" alt="K">
-<img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="10%" alt="弱K">
-<img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_h.png" width="10%" alt="強K">
-
--->
-
-
 # レバーレス
 
 Amazon で買った支那産レバーレス Fight Box。安いし良いです。今 Amazon を見たら、買ったときよりも値上げしてたけど。
@@ -387,12 +373,12 @@ SF4 の頃は超低空で出せたり、垂直やバックジャンプからも�
 
 | キーディス | 結果 備考等 |
 | -------- | ---- |
-| 8 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="10%" alt="弱K"><br>7 ↗<br>1 ⬆<br>3 ⬅<br>4 ↙<br>4 ⬇  | 成立 (2 + 1 + 7 + 1 = 11F) |
-| 9 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="10%" alt="弱K"><br>6 ↗<br>4 N<br>2 ⬅<br>6 ↙<br>5 ⬇  | 不成立 (1 + 4 + 6 + 1 = 12F) |
-| 5 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="10%" alt="弱K"><br>1 ↗<br>1 ⬅<br>5 ↙<br>3 ⬇  | 成立 (0 + 1 + 1 = 2F) ↗の1F後にキックで成立 |
-| 7 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="10%" alt="弱K"><br>2 ➡<br>2 ⬅<br>6 ↙<br>2 ⬇  | 不成立 (1 + 2 + 1 = 4F) ↗とキックが同時だと出ない？ |
-| 11 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_h.png" width="10%" alt="強K"><br>7 ↗<br>2 ➡<br>1 N<br>1 ⬅<br>7 ↙<br>4 ⬇  | 成立 (0 + 1 + 2 + 7 + 1 = 11F) |
-| 7 ↗ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_h.png" width="10%" alt="強K"><br>7 ↗<br>3 ➡<br>2 ⬅<br>7 ↙<br>4 ⬇  | 不成立 (1 + 3 + 7 + 1 = 12F) |
+| 8 ↗ 弱K<br>7 ↗<br>1 ⬆<br>3 ⬅<br>4 ↙<br>4 ⬇  | 成立 (2 + 1 + 7 + 1 = 11F) |
+| 9 ↗ 弱K<br>6 ↗<br>4 N<br>2 ⬅<br>6 ↙<br>5 ⬇  | 不成立 (1 + 4 + 6 + 1 = 12F) |
+| 5 ↗ 弱K<br>1 ↗<br>1 ⬅<br>5 ↙<br>3 ⬇  | 成立 (0 + 1 + 1 = 2F) ↗の1F後にキックで成立 |
+| 7 ↗ 弱K<br>2 ➡<br>2 ⬅<br>6 ↙<br>2 ⬇  | 不成立 (1 + 2 + 1 = 4F) ↗とキックが同時だと出ない？ |
+| 11 ↗ 強K<br>7 ↗<br>2 ➡<br>1 N<br>1 ⬅<br>7 ↙<br>4 ⬇  | 成立 (0 + 1 + 2 + 7 + 1 = 11F) |
+| 7 ↗ 強K<br>7 ↗<br>3 ➡<br>2 ⬅<br>7 ↙<br>4 ⬇  | 不成立 (1 + 3 + 7 + 1 = 12F) |
 
 * 攻撃ボタンを押すまでの猶予は 後ろ入力から 11F 以内と思われる
 * ジャンプ入力の 1F 以降でないと成立しない（同時だと不成立）。これが高さ制限？
@@ -785,7 +771,7 @@ d. については、フェイルセーフ的選択。
 
 | キーディス |
 | -------- |
-| 1 ⬆ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="8%" alt="弱K"><br>2 ⬆ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_kick_l.png" width="8%" alt="弱K"><img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch_m.png" width="8%" alt="中P"><br> 1 ⬇ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch_m.png" width="8%" alt="中P"><br> 80 ⬇|
+| 1 ⬆ 弱K<br>2 ⬆ 弱K, 中P<br> 1 ⬇ 中P<br> 80 ⬇|
 |
 
 
@@ -818,7 +804,7 @@ d. については、フェイルセーフ的選択。
 キーディス例を挙げると（下が過去）<br>
 | キーディス |
 | -------- |
-|3 ⬆ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="8%" alt="P">  => スクリュー成立<br>5 ⬆<br>3 ➡<br>4 ⬇<br>4 ⬅<br>|
+|3 ⬆ P  => スクリュー成立<br>5 ⬆<br>3 ➡<br>4 ⬇<br>4 ⬅<br>|
 
 こんな感じでも成立するということ。
 
@@ -910,10 +896,10 @@ d. については、フェイルセーフ的選択。
 キーディス（過去が下）
 | Key | ⬆入力後のフレーム数 |
 | -------- | ---- |
-| 1 ➡ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="10%" alt="P"><br>1 ⬇<br>1 ⬅<br>1 ⬆<br> | 3F（最速。試行中は出なかった） |
-| 1 ➡ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="10%" alt="P"><br>1 ⬇<br>2 ⬅<br>1 ⬆<br> | 4F |
-| 2 ➡ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="10%" alt="P"><br>1 ⬇<br>2 ⬅<br>2 ⬆ | 5F |
-| 2 ➡ <img src="https://www.streetfighter.com/6/assets/images/common/controller/icon_punch.png" width="10%" alt="P"><br>1 ⬇<br>1 ⬅<br>1 ↖<br>2 ⬆ | 5F（⬆を離す迄に 3F 掛かるともう後が無い） |
+| 1 ➡ P<br>1 ⬇<br>1 ⬅<br>1 ⬆<br> | 3F（最速。試行中は出なかった） |
+| 1 ➡ P<br>1 ⬇<br>2 ⬅<br>1 ⬆<br> | 4F |
+| 2 ➡ P<br>1 ⬇<br>2 ⬅<br>2 ⬆ | 5F |
+| 2 ➡ P<br>1 ⬇<br>1 ⬅<br>1 ↖<br>2 ⬆ | 5F（⬆を離す迄に 3F 掛かるともう後が無い） |
 
 
 とりあえず最初は、トレモのゲームスピードを 50% に設定して感覚を掴むのが良いと思います。<br>
